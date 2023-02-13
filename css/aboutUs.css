@@ -1,0 +1,82 @@
+body {
+    margin:0;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(97, 95, 97));
+
+}
+
+html{
+    font-family: 'Secular One', sans-serif;
+}
+
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.logo{
+    text-align: center;
+    line-height: 0px;
+    
+}
+#frontend{
+    font-size: 40px;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+}
+#store{
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(255, 213, 47);
+}
+
+.navegacion{
+    background-color: rgba(255, 106, 0, 0.906);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /*SEPARAR LOS ELEMENTOS EN 2*/
+    box-shadow: 0 4px 8px 0 rgba(255, 163, 5, 0.585),0 4px 8px 0 rgba(255, 123, 0, 0.66); 
+}
+#navOpc{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+#navOpc:hover{
+    color: rgb(255, 230, 0);
+}
+
+.nosotros{
+   
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+
+#encabezado{
+	text-align: center;
+	color: aliceblue;
+}
+.texto{
+   color: aliceblue; 
+    width: 30%;
+    padding: 50px;
+    font-size: 0.9vw;
+  
+
+}
+.imagen img {
+   
+    width: 550px;
+    height: 300px;
+    padding: 50px;
+
+}
+
+.polaroid {
+    margin: -10%;
+    width: 500px;
+   
+    
+    }

@@ -1,0 +1,196 @@
+body {
+    margin:0;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(97, 95, 97));
+
+}
+
+html{
+    font-family: 'Secular One', sans-serif;
+}
+
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.logo{
+    text-align: center;
+    line-height: 0px;
+    
+}
+#frontend{
+    font-size: 40px;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+}
+#store{
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(255, 213, 47);
+}
+
+.navegacion{
+    background-color: rgba(255, 106, 0, 0.906);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /*SEPARAR LOS ELEMENTOS EN 2*/
+    box-shadow: 0 4px 8px 0 rgba(255, 163, 5, 0.585),0 4px 8px 0 rgba(255, 123, 0, 0.66); 
+}
+#navOpc{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+#navOpc:hover{
+    color: rgb(255, 230, 0);
+}
+
+.grid-item img{
+  width: 100%;
+  max-width: 200px;
+  height: 55%;
+  max-height: 75%;
+  
+}
+
+.grid-big .item{
+  display: flex;
+  align-items: center;
+   height: 700px;
+  /* border: 3px solid #73AD21;*/
+   z-index: 1;
+   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('https://www2.softtek.com/hubfs/Softtek/images/Photos/Insights_Header-stk.jpg');
+   background-repeat: no-repeat;
+   background-position: 50% 0;
+   background-size: cover;  
+}
+
+
+
+.grid-container {
+    display: grid;
+  
+    background-color: transparent;
+    padding: 5px;
+
+   
+  }
+
+  .grid-big {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(59, 60, 59, 0.277); /*PARA DARLE SOMBRA A MI CAJA¨*/
+    margin: 40px;
+    text-align: center;
+    padding: 3px;
+    font-size: 30px;
+    height: 300px;
+  }
+
+  .grid-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(59, 60, 59, 0.445); /*PARA DARLE SOMBRA A MI CAJA¨*/
+    margin: 30px; 
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    
+  }
+
+  .grid-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.585),0 4px 8px 0 rgba(255, 255, 255, 0.66); 
+}
+
+
+
+
+.nameImg{
+ 
+
+}
+
+  .grid-big {
+ 
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 ;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 2 ;
+    grid-row: 1;
+  }
+  .item3 {
+    grid-column: 3 ;
+    grid-row: 1;
+  }
+  
+  .item4 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .item5 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .item6 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .item7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('https://cdn.shopify.com/s/files/1/0268/5180/3305/files/SU22-WOMENS-HOMEPAGE_1600x.jpg?v=1654632574');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;  
+    grid-column: 1 / span 3;
+    grid-row: 3;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(59, 60, 59, 0.633); /*PARA DARLE SOMBRA A MI CAJA¨*/
+  }
+
+  .item8{
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .item9{
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .item10{
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+  .item11 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('https://cdn.shopify.com/s/files/1/0268/5180/3305/files/SU22-LAUNCH-HOMEPAGE-DESKTOP-FULL_1600x.jpg?v=1652312563');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;  
+    grid-column: 2 / span 2;
+    grid-row: 5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(59, 60, 59, 0.633); /*PARA DARLE SOMBRA A MI CAJA¨*/
+  }
+
+  .item12{
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .item13{
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .item14{
+    grid-column: 2;
+    grid-row: 6;
+  }
